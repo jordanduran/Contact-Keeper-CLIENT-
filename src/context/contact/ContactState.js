@@ -51,7 +51,7 @@ const ContactState = props => {
 
   // Delete Contact
   const deleteContact = id => {
-    dispatch({ type: SET_CURRENT, payload: id });
+    dispatch({ type: DELETE_CONTACT, payload: id });
   };
   // Set Current Contact
   const setCurrent = contact => {
