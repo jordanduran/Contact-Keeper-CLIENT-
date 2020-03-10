@@ -3,13 +3,6 @@ import { v4 as uuidv4 } from 'uuid';
 import AuthContext from './authContext';
 import authReducer from './authReducer';
 import {
-  ADD_CONTACT,
-  DELETE_CONTACT,
-  SET_CURRENT,
-  CLEAR_CURRENT,
-  UPDATE_CONTACT,
-  FILTER_CONTACTS,
-  CLEAR_FILTER,
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
