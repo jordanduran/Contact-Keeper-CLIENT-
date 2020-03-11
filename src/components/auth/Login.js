@@ -30,6 +30,7 @@ const Login = () => {
             name='email'
             value={email}
             onChange={handleChange}
+            required
           />
         </div>
         <div className='form-group'>
@@ -39,6 +40,7 @@ const Login = () => {
             name='password'
             value={password}
             onChange={handleChange}
+            required
           />
         </div>
         <input
